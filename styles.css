@@ -1,5 +1,55 @@
 header {
-    height: 100%;
-    width: 100%;
-    background-image: url()
+  margin: 0 auto;
+  height: 450px;
+  width: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-image: url("https://cdn.pixabay.com/photo/2011/12/15/10/00/carina-nebula-11147_960_720.jpg");
+  font-size: 36px;
+}
+
+body {
+  font-family: Merriweather Sans;
+  max-width: 850px;
+  max-height: 874px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.flex-grid {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+}
+
+.flex-grid .col {
+  margin: 20px 10px;
+  width: 32%;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+.col {
+  padding-left: 10px;
+  width: 270px;
+  height: 324px;
+}
+
+.textarea {
+  width: 100%;
+}
+
+button {
+  color: white;
+  background-color: #4d4d4d;
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-top: 10px;
 }
